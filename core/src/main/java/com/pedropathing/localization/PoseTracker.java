@@ -325,7 +325,7 @@ public class PoseTracker {
     }
 
     /**
-     * This resets the IMU of the localizer.
+     * This resets the IMU of the localizer. we press the b button of controller to let it happen
      */
     public void resetIMU() throws InterruptedException {
         localizer.resetIMU();
